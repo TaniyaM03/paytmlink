@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Paytmlink</title>
+<style>
+	img{
+		width: 90px;
+		height: 80px;
+	}
+	h3{
+		text-align: center;
+		font-size: large;
+		color: rgb(77, 75, 75);
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
+	.maincont{
+		height:30vh ;
+		padding-top: 30px;
+		padding-left: 30px;
+		background-color: rgb(235, 249, 249);
+		display: flex;
+		justify-content: space-between;
+
+		
+	}
+
+	.scanqr{
+		width:200px;
+		height:200px;
+
+	}
+	.terms{
+		padding-left:10px ;
+		padding-top: 15px;
+	}
+	span{
+		color: #00b9f5;;
+		font-weight: 200;
+	}
+	hr{
+		margin-top: 170px;
+		
+	}
+	footer{
+		display: flex;
+		justify-content: space-between;
+	}
+	.storelogo{
+		width: 130px;
+		height: 60px;
+	}
+	.bottomtag{
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		font-size: smaller;
+		padding-left: 20px;
+	}
+</style>
+</head>
+<body>
+	<img src="./images/logo.png">
+	<h3><b>Pay through your Paytm account</b></h3>
+	<div class="maincont">
+		<div class="steps">
+			<h4>Steps to scan QR Code</h4>
+			<p>1. Open Paytm App</p>
+			<p>2. Tap Scan option available at the bottom</p>
+			<p>3. Point Paytm Scan at QR Code to login</p>
+		</div>
+		<div class="qr">
+			<img src="./images/qr.png" class="scanqr">
+		</div>
+	</div>
+	<p class="terms">By signing in, you agree to our <span>privacy policy</span> and <span>terms of use</span></p>
+	<hr>
+	<footer>
+		<div><p class="bottomtag">To create an account download Paytm App</p></div>
+		<div>
+			<img src="./images/apple.png" class="storelogo">
+			<img src="./images/google.png" class="storelogo">
+		</div>
+	</footer>
+</body>
+</html>
